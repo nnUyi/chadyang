@@ -1,0 +1,227 @@
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Youzhao Yang</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!-- fonts -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'><!-- //fonts -->
+
+	<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smoth-scrolling -->
+
+
+<!-- skills -->
+<script src="js/pie-chart.js" type="text/javascript"></script>
+ <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#demo-pie-1').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'round',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-2').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'butt',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-3').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'square',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+			
+			$('#demo-pie-4').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'square',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+        });
+    </script>
+<!-- skills -->
+<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+
+</head>
+<body>
+<!-- banner -->
+<div class="header-top">
+	<div class="container">
+		<ul>
+			<li><a class="scroll" href="#about"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>Resume</a></li>
+			<!-- <li><a class="scroll" href="#emailme"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Email me</a></li> -->
+			<li><a href="javascript:window.print()"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>Print CV</a></li>
+			<!-- <li><a href="#portfolioModal9" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"> -->
+
+		</ul>
+	</div>
+</div>	
+<div class="header">
+	<div class="container">
+		<div class="col-md-8 header-left">
+			<div class="col-sm-5 pro-pic">
+				<img class="img-responsive" src="images/image.jpg" alt=" " onclick="repeat()"/>
+				<br>
+				<p align="center" style="color:#555555;font-size:10px;">阿柴柴大大 (@>◡<@)</p>
+			</div>
+			<div class="col-sm-5 pro-text" style="margin-left:20px">
+				<h1>Youzhao Yang</h1>
+				<p style="font-size:30px;color:white">杨友钊</p>
+				<br>
+				<p align="center" style="color:#555555;font-size:10px;">"I think if you do something and it turns out pretty good, then you should go do something else wonderful, not dwell on it for too long. Just figure out what’s next." -- Steve Jobs</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="col-md-4 header-right ">
+			<ul class="list-left">
+				<li>Email:</li>
+				<li>Address: </li>
+			</ul>
+			<ul class="list-right">
+				<li><a href="yzyang17@fudan.edu.cn">yzyang17@fudan.edu.cn</a></li>
+				<li>No. 1159 Cailun Road, Pudong New District, Shanghai, 200120, P. R. China.</li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+<div id="modal_volume" style="position: fixed; text-align: center; width: 100%; height: 100%; top: 0; z-index: 9999; display: none;">
+    <table style="width: 100%; height: 100%;">
+        <tr>
+            <td align="center" style="">
+                <div style="width: 600px; position: relative">
+                	<div class="col-sm-5 pro-pic">
+                    	<a> <img src="images/double.jpg" style="width:600px; height:400px; "/> </a>
+                    </div>
+                    <a href="javascript:$('#modal_volume').fadeOut();" style="display: block; width:600px; height:400px; position: absolute; right: 0px; top: 0px; z-index: 2"></a>
+                    
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<!-- //banner -->
+<!-- about -->
+<div id="about" class="about">
+	<div class="container">
+		<h3 class="tittle">About Me</h3>
+		<p class="abt-para">I am currently pursuing the master’s degree of computer science and technology in <a href='http://www.cs.fudan.edu.cn/computer/acm/'>School of Computer and Science</a>, <a href='http://www.gs.fudan.edu.cn/'>Fudan University</a>, under the supervision of <a href='http://homepage.fudan.edu.cn/honglu/'>Prof. Hong Lu</a> at <a href='http://homepage.fudan.edu.cn/honglu/machine-vision-lab/'>Fudan Machine Vision Lab</a>.
+		</p>
+	</div>
+	<div class="clearfix"></div>
+</div>
+<div class="portfolio">
+	<div class="container">
+		<h3 class="tittle ">Research</h3>
+		<p class="abt-para">Currently, my current research interests include computer vision, low-Level vision (<a href='https://github.com/nnuyi/Derainzoo'>Image Deraining</a>, Image Denoising, etc.), deep learning.</p>
+		<p class="abt-para-left-tittle">Publication</p>
+		<p class="abt-para-left">
+		<table style="border-collapse:separate; border-spacing:0px 30px; color:#464646; line-height:2.2em; text-align:left; font-size:14px; width:75%; margin: -30px auto 50px;">
+			<tr>
+				<td style="width:275px"><img src="images/ICME2019.png" style="width:250px"></td>
+				<td>
+					Youzhao Yang*, Hong Lu. "Single Image Deraining using A Recurrent Multi-Scale Aggregation and Enhancement Network", Proc. of IEEE International Conference on Multimedia Expo, Shanghai, China, July. 2019. <br>
+					Links: <a href="https://github.com/nnUyi/ReMAEN/tree/master/paper">[PDF]</a> <a href="https://github.com/nnUyi/ReMAEN">[Website | Code]</a> 
+				</td>
+			</tr>
+			<tr>
+				<td><img src="images/ACMMM2019.png" style="width:250px"></td>
+				<td>
+					Youzhao Yang*, Hong Lu. "Single Image Deraining vis Recurrent Hierarchy Enhancement Network", Proc. of ACM International Conference on Multimedia, Nice, France, Oct. 2019. <br>
+					Links: <a href="https://github.com/nnUyi/ReHEN">[PDF]</a> <a href="https://github.com/nnUyi/ReHEN">[Website | Code]</a> 
+				</td>
+			</tr>
+		</table>
+		
+		</p>
+	</div>
+</div>
+<div id="about" class="about">
+	<div class="container">
+		<h3 class="tittle">Intern</h3>
+		<p class="abt-para-left-tittle">Internship</p>
+		<p class="abt-para-left">
+		<table style="border-collapse:separate; border-spacing:0px 30px; color:#464646; line-height:2.2em; text-align:left; font-size:14px; width:75%; margin: -30px auto 50px;">
+			<tr>
+				<td style="width:275px"><img src="images/tencent.jpg" style="width:250px"></td>
+				<td>
+					Position: Research Intern for Application (Game AI) in Tencent.<br>
+					Date: 2019.06 -- 2019.09
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="clearfix"></div>
+</div>
+
+<script LANGUAGE="JavaScript">  
+    function reP(){  
+    	document.getElementById('oImg').style.display = "block";  
+    }  
+</script>  
+
+<!--scrolling js-->
+<script src="js/jquery.nicescroll.js"></script>
+<script src="js/scripts.js"></script>
+<!--//scrolling js-->
+<!-- smooth scrolling -->
+<script type="text/javascript">
+	function repeat() {
+	    $('#modal_volume').fadeIn();
+	}
+</script>
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+
+</body>
+</html>
